@@ -1,6 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/*tables*/
+defined('PRD') OR define('PRD','produk_data');
+defined('IMG') OR define('IMG','produk_image');
+defined('DESCR') OR define('DESCR','produk_deskripsi');
+defined('CAT') OR define('CAT','produk_kategori');
+defined('META') OR define('META','produk_meta');
+defined('USR') OR define('USR','users');
+defined('USRD') OR define('USRD','user_detail');
+defined('INV') OR define('INV','invoice');
+defined('LOG') OR define('LOG','logs');
+defined('LOGT') OR define('LOGT','log_type');
+
 /*REST*/
 defined('HTTP_OK') OR define('HTTP_OK',200);
 defined('HTTP_CREATED') OR define('HTTP_CREATED',201);
